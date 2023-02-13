@@ -1,8 +1,5 @@
 const express = require("express");
-const router = express.Router();
 const userController = require('../controllers/user.contoller');
-
-
 // import graphqlHTTP from 'express-graphql';
 // import {makeExecutableSchema} from 'graphql-tools';
 var { buildSchema } = require('graphql');
